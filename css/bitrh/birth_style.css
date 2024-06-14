@@ -1,0 +1,137 @@
+@charset "UTF-8";
+@import "./../reset.css";
+#wrap {
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#wrap > header {
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  height: 30px;
+  margin-bottom: 15px;
+}
+#wrap > header > h1 {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header > h2 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header ul.top4 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+#wrap > header ul.top4 > li {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#wrap > header ul.top4 > li > a {
+  display: block;
+  text-indent: -9999px;
+}
+#wrap > header ul.top4 > li.alarm {
+  background-image: url(./../../images/알람시계.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.wifi {
+  width: 30px;
+  background-image: url(./../../images/와이파이.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.hundred {
+  width: 30px;
+  background-image: url(./../../images/100퍼센트.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.battery {
+  margin-right: 0;
+  background-image: url(./../../images/배터리.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section {
+  margin-left: 5px;
+}
+#wrap > section.top {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 30px;
+}
+#wrap > section.top > p {
+  width: 50px;
+  background-image: url(./../../images/왼쪽화살표.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.top > p > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap > section.top > h2 {
+  font-size: 23px;
+}
+#wrap > section.top > h2 a {
+  display: block;
+  height: 30px;
+}
+#wrap > section.middle-1 > p {
+  font-weight: 500;
+}
+#wrap > section.middle-1 > ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.middle-2 > ul.fastBirth {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > footer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+#wrap > footer > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+#wrap > footer > ul > li {
+  width: 33%;
+}
+#wrap > footer > ul > li > a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+}
+#wrap > footer > ul > li:nth-of-type(1) {
+  background-image: url(./../../images/최근앱버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(2) {
+  width: 34%;
+  background-image: url(./../../images/홈버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(3) {
+  background-image: url(./../../images/뒤로가기-하단.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=birth_style.css.map */

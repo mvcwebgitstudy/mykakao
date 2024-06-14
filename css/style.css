@@ -1,0 +1,398 @@
+@charset "UTF-8";
+@import "./reset.css";
+#wrap {
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+#wrap > header {
+  display: flex;
+  position: relative;
+  flex-flow: row nowrap;
+  height: 30px;
+  margin-bottom: 15px;
+}
+#wrap > header > h1 {
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header > h2 {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  font-size: 20px;
+}
+#wrap > header ul.top4 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+#wrap > header ul.top4 > li {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#wrap > header ul.top4 > li > a {
+  display: block;
+  text-indent: -9999px;
+}
+#wrap > header ul.top4 > li.alarm {
+  background-image: url(./../images/알람시계.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.wifi {
+  width: 30px;
+  background-image: url(./../images/와이파이.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.hundred {
+  width: 30px;
+  background-image: url(./../images/100퍼센트.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > header ul.top4 > li.battery {
+  margin-right: 0;
+  background-image: url(./../images/배터리.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap section.top {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 60px;
+}
+#wrap section.top > h2 {
+  margin-left: 5px;
+}
+#wrap section.top > ul.ul-1 {
+  display: flex;
+  flex-flow: row nowrap;
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+#wrap section.top > ul.ul-1 > li {
+  width: 30px;
+  margin-right: 10px;
+}
+#wrap section.top > ul.ul-1 > li > a {
+  display: block;
+  height: 30px;
+  text-indent: -9999px;
+}
+#wrap section.top > ul.ul-1 > li:nth-of-type(1) {
+  background-image: url(./../images/돋보기.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap section.top > ul.ul-1 > li:nth-of-type(1) a:hover {
+  background-image: url(./../images/돋보기.gif);
+}
+#wrap section.top > ul.ul-1 > li:nth-of-type(2) {
+  background-image: url(./../images/친구추가.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap section.top > ul.ul-1 > li:nth-of-type(2) > a:hover {
+  background-image: url(./../images/친구추가\ 호버.gif);
+}
+#wrap section.top > ul.myprofile {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  height: 80px;
+  margin-top: 10px;
+}
+#wrap section.top > ul.myprofile > li {
+  width: 50px;
+}
+#wrap section.top > ul.myprofile > li > a {
+  display: block;
+  height: 30px;
+}
+#wrap section.top > ul.myprofile > li:nth-of-type(1) {
+  position: absolute;
+  left: 5px;
+  top: 50px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap section.top > ul.myprofile > li:nth-of-type(1) > a {
+  text-indent: -9999px;
+  height: 50px;
+}
+#wrap section.top > ul.myprofile > li:nth-of-type(2) {
+  position: absolute;
+  left: 65px;
+  top: 60px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap section.top > ul.myprofile > li:nth-of-type(3) {
+  position: absolute;
+  left: 65px;
+  top: 80px;
+  width: 500px;
+}
+#wrap section.top > ul.myprofile:hover {
+  background-color: #dbe4ea;
+}
+#wrap > section.middle-1 {
+  position: relative;
+  margin-bottom: 100px;
+}
+#wrap > section.middle-1 > h2.title {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#wrap > section.middle-1 > ul {
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.middle-1 > ul > li > a {
+  display: block;
+  height: 35px;
+}
+#wrap > section.middle-1 > ul > li:nth-of-type(1) {
+  position: absolute;
+  left: 5px;
+  top: 30px;
+  background-image: url(./../images/케이크-big.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > section.middle-1 > ul > li:nth-of-type(1) > a {
+  width: 50px;
+  height: 60px;
+  text-indent: -9999px;
+}
+#wrap > section.middle-1 > ul > li:nth-of-type(2) {
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  font-weight: 600;
+  font-size: 15px;
+}
+#wrap > section.middle-1 > ul > li:nth-of-type(2) > a {
+  height: 60px;
+  line-height: 60px;
+}
+#wrap > section.middle-2 {
+  margin-left: 5px;
+  margin-bottom: 30px;
+}
+#wrap > section.middle-2 > h2.title {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+#wrap > section.middle-2 > ul.bookmark-1 {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.middle-2 > ul.bookmark-1 > li {
+  margin-bottom: 10px;
+}
+#wrap > section.middle-2 > ul.bookmark-1 > li > a {
+  display: block;
+  height: 50px;
+}
+#wrap > section.middle-2 > ul.bookmark-1 > li:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.bookmark-1 > li:nth-child(1) > a {
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.bookmark-1 > li:nth-child(2) {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.bookmark-1 > li:nth-child(3) {
+  position: absolute;
+  left: 50px;
+  top: 23px;
+  font-size: 12px;
+}
+#wrap > section.middle-2 > ul.bookmark-2 {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.middle-2 > ul.bookmark-2 > li {
+  margin-bottom: 10px;
+}
+#wrap > section.middle-2 > ul.bookmark-2 > li > a {
+  display: block;
+  height: 50px;
+}
+#wrap > section.middle-2 > ul.bookmark-2 > li:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.bookmark-2 > li:nth-child(1) > a {
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.bookmark-2 > li:nth-child(2) {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.bookmark-2 > li:nth-child(3) {
+  position: absolute;
+  left: 50px;
+  top: 23px;
+  font-size: 12px;
+}
+#wrap > section.middle-2 > ul.bookmark-3 {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+}
+#wrap > section.middle-2 > ul.bookmark-3 > li {
+  margin-bottom: 10px;
+}
+#wrap > section.middle-2 > ul.bookmark-3 > li > a {
+  display: block;
+  height: 50px;
+}
+#wrap > section.middle-2 > ul.bookmark-3 > li:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  border-radius: 20%;
+}
+#wrap > section.middle-2 > ul.bookmark-3 > li:nth-child(1) > a {
+  text-indent: -9999px;
+}
+#wrap > section.middle-2 > ul.bookmark-3 > li:nth-child(2) {
+  position: absolute;
+  left: 50px;
+  top: 5px;
+  font-weight: 500;
+}
+#wrap > section.middle-2 > ul.bookmark-3 > li:nth-child(3) {
+  position: absolute;
+  left: 50px;
+  top: 23px;
+  font-size: 12px;
+}
+#wrap > section.bottom > h2 {
+  display: none;
+}
+#wrap > section.bottom nav > ul.icon {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid #dddada;
+}
+#wrap > section.bottom nav > ul.icon > li {
+  width: 25%;
+}
+#wrap > section.bottom nav > ul.icon > li > a {
+  display: block;
+  height: 40px;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(1) {
+  background-image: url(./../images/친구-카톡하단바.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(1) > a {
+  text-indent: -9999px;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(2) {
+  background-image: url(./../images/말풍선-카톡하단바.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(2) > a {
+  text-indent: -9999px;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(3) {
+  background-image: url(./../images/돋보기-카톡하단바.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(3) > a {
+  text-indent: -9999px;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(4) {
+  background-image: url(./../images/설정-카톡하단바.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#wrap > section.bottom nav > ul.icon > li:nth-child(4) > a {
+  text-indent: -9999px;
+}
+#wrap > section.bottom nav > ul.iconName {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+#wrap > section.bottom nav > ul.iconName > li {
+  width: 25%;
+}
+#wrap > section.bottom nav > ul.iconName > li > a {
+  display: block;
+  height: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+#wrap > footer {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+#wrap > footer > ul {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100%;
+}
+#wrap > footer > ul > li {
+  width: 33%;
+}
+#wrap > footer > ul > li > a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+}
+#wrap > footer > ul > li:nth-of-type(1) {
+  background-image: url(./../images/최근앱버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(2) {
+  width: 34%;
+  background-image: url(./../images/홈버튼.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#wrap > footer > ul > li:nth-of-type(3) {
+  background-image: url(./../images/뒤로가기-하단.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=style.css.map */

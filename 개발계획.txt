@@ -1,0 +1,21 @@
+1. 개발범위(페이지) 선정 및 파일명
+
+  메인화면 index.html 로 파일이름 설정하기
+
+  friends
+  chatlist
+
+  setting
+  info
+  search
+
+  talk1
+  talk2
+  talk3
+  talk4
+
+2. 각 페이지별 스케치(시안) -> 구성요소 확정  
+
+3. 필요한 리소스 수집 -> 이미지, 영상, 글
+
+4. 코딩작업

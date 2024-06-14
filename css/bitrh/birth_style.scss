@@ -1,0 +1,191 @@
+@charset "utf-8";
+@import "./../reset.css";
+
+#wrap{
+  width: 640px;
+  margin: 0 auto;
+  border: 1px solid #000;
+
+  >header{
+    display: flex;
+    position: relative;
+    flex-flow: row nowrap;
+    height: 30px;
+    margin-bottom: 15px;
+  
+    >h1{
+      position: absolute;
+      left: 5px;
+      top: 0;
+      font-size: 20px;
+    }
+  
+    >h2{
+      position: absolute;
+      left: 50px;
+      top: 0;
+      font-size: 20px;
+    }
+
+    ul.top4{
+      display: flex;
+      flex-flow: row nowrap;
+      position: absolute;
+      right: 5px;
+      top: 0;
+
+      >li{
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        // border: 1px solid #000;
+
+        >a{
+          display: block;
+          text-indent: -9999px;
+        }
+      }
+
+      >li.alarm{
+        background-image: url(./../../images/알람시계.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      >li.wifi{
+        width: 30px;
+        background-image: url(./../../images/와이파이.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      >li.hundred{
+        width: 30px;
+        background-image: url(./../../images/100퍼센트.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+
+      >li.battery{
+        margin-right: 0;
+        background-image: url(./../../images/배터리.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+    }
+  }//header
+
+  >section{
+    margin-left: 5px;
+  }
+
+  >section.top{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 30px;
+
+    >p{
+      width: 50px;
+      background-image: url(./../../images/왼쪽화살표.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      >a{
+        display: block;
+        height: 30px;
+        text-indent: -9999px;
+      }
+    }
+
+    >h2{
+      font-size: 23px;
+      a{
+        display: block;
+        height: 30px;
+      }
+    }
+  }
+
+  >section.middle-1{
+    
+    >h2{
+
+    }
+
+    >p{
+      font-weight: 500;
+    }
+
+    >ul{
+      display: flex;
+      flex-flow: row nowrap;
+      
+      li{
+
+        a{
+
+        }
+      }
+    }
+  }
+
+  >section.middle-2{
+
+    >h2{
+
+    }
+
+    >p{
+      
+    }
+
+    >ul.fastBirth{
+      display: flex;
+      flex-flow: row nowrap;
+    }
+
+    >ul.slowBirth{
+
+    }
+  }
+
+  >footer{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    background-color: #eee;
+
+    >ul{
+      display: flex;
+      flex-flow: row nowrap;
+      height: 100%;
+
+      >li{
+        width: 33%;
+
+        >a{
+          display: block;
+          height: 100%;
+          text-indent: -9999px;
+        }
+      }
+
+      >li:nth-of-type(1){
+        background-image: url(./../../images/최근앱버튼.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      >li:nth-of-type(2){
+        width: 34%;
+        background-image: url(./../../images/홈버튼.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+      >li:nth-of-type(3){
+        background-image: url(./../../images/뒤로가기-하단.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+      }
+    }//ul
+  }//footer
+}//#wrap
